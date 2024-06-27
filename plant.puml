@@ -1,0 +1,14 @@
+@startuml plants
+class Animal {
+    +String name
+    +int age
+    +void makeSound()
+}
+
+class Dog {
+    +String breed
+    +void bark()
+}
+
+Animal <|-- Dog
+@enduml
